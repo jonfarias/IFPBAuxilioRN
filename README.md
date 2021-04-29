@@ -1,7 +1,14 @@
 <h1 align="center">IFPBAuxilio</h1>
 
 
+
 <h2> Como instalar </h2>
+
+<h4>Requisitos para instalação<h4>
+
+* Node.js LTS
+* Yarn
+* Expo
 
 <h3> Mobile </h3>
 
@@ -12,13 +19,13 @@
 2. cd IFPBAuxilioRN
 ```
 
-* Install dependencies
+* Instalar as dependencias
 
 ```
 1. yarn install
 ```
 
-* Start the application:
+* Inicie a aplicação:
 
 ```
 3. yarn start
