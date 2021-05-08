@@ -10,7 +10,7 @@ import AuthProvider from './src/contexts/auth';
 
 //Fontes
 import  AppLoading  from 'expo-app-loading';
-import {useFonts, Montserrat_300Light,  Montserrat_500Medium} from '@expo-google-fonts/montserrat';
+import {useFonts, Montserrat_300Light,  Montserrat_500Medium, Montserrat_600SemiBold} from '@expo-google-fonts/montserrat';
 
 //Firebase
 import firebase from './src/services/firebaseConnection';
@@ -24,6 +24,7 @@ export default function App(){
  let [fontsLoaded, error] = useFonts({
     Montserrat_300Light,
     Montserrat_500Medium,
+    Montserrat_600SemiBold,
   });
 
   if (!fontsLoaded) {
@@ -36,7 +37,7 @@ export default function App(){
     <NavigationContainer>
       <AuthProvider>
 
-        <StatusBar backgroundColor= '#1D6329' barStyle='light-content'/>
+        <StatusBar backgroundColor= 'grey' barStyle='light-content'/>
         <Routes/>
 
       </AuthProvider>
